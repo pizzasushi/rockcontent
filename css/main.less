@@ -225,6 +225,12 @@ body{
 		margin-left: 5px;
 		margin-bottom: 126px;
 	}
+  &.team_page {
+    background: url(../img/banner_02.jpg) 50% 0%;
+    .txtBlock {
+      text-align: center;
+    }
+  }
 }
 
 .features_top_3{
@@ -247,6 +253,55 @@ body{
 		line-height: 33px;
 		color: #8ea2b7;
 	}
+}
+
+.team {
+  .separate {
+    padding: 60px 0 60px;
+  }
+  .sp {
+    text-align: center;
+    position: relative;
+    &:hover .hover_sp{
+      display: block;
+    }
+  }
+  .hover_sp {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: none;
+    text-align: center;
+    padding-top: 30%;
+    background: rgba(255, 255, 255, .5);
+    a {
+      margin: 0 5px;
+    }
+  }
+  h2 {
+    color: #35373d;
+  }
+  .post {
+    font-size: 20px;
+    color: #979797;
+  }
+  p {
+    color: #656565;
+  }
+  .short_line {
+    margin: 17px 0 20px;
+    width: 20%;
+    height: 1px;
+    background: #48bcfe;
+  }
+}
+
+.line {
+  width: 52%;
+  margin: 20px auto 35px;
+  height: 1px;
+  background: #48bcfe;
 }
 
 .request_demo{
@@ -510,6 +565,9 @@ body{
 		margin-bottom: 58px;
 
 	}
+  &.team_page {
+    background: url(../img/bg_hiring_2.png) 50% 0%;
+  }
 }
 
 .get_in_touch{

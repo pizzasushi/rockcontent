@@ -172,6 +172,12 @@ body {
   margin-left: 5px;
   margin-bottom: 126px;
 }
+.top_banner.team_page {
+  background: url(../img/banner_02.jpg) 50% 0%;
+}
+.top_banner.team_page .txtBlock {
+  text-align: center;
+}
 .features_top_3 {
   text-align: center;
 }
@@ -192,6 +198,51 @@ body {
   font-weight: 100;
   line-height: 33px;
   color: #8ea2b7;
+}
+.team .separate {
+  padding: 60px 0 60px;
+}
+.team .sp {
+  text-align: center;
+  position: relative;
+}
+.team .sp:hover .hover_sp {
+  display: block;
+}
+.team .hover_sp {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  display: none;
+  text-align: center;
+  padding-top: 30%;
+  background: rgba(255, 255, 255, 0.5);
+}
+.team .hover_sp a {
+  margin: 0 5px;
+}
+.team h2 {
+  color: #35373d;
+}
+.team .post {
+  font-size: 20px;
+  color: #979797;
+}
+.team p {
+  color: #656565;
+}
+.team .short_line {
+  margin: 17px 0 20px;
+  width: 20%;
+  height: 1px;
+  background: #48bcfe;
+}
+.line {
+  width: 52%;
+  margin: 20px auto 35px;
+  height: 1px;
+  background: #48bcfe;
 }
 .request_demo {
   text-align: center;
@@ -430,6 +481,9 @@ body {
   padding-right: 102px;
   margin-top: 50px;
   margin-bottom: 58px;
+}
+.we_are_hiring.team_page {
+  background: url(../img/bg_hiring_2.png) 50% 0%;
 }
 .get_in_touch {
   padding-top: 27px;
