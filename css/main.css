@@ -167,6 +167,10 @@ body {
   font-size: 24px;
   font-weight: 100;
 }
+.top_banner .txtBlock.centered {
+  margin-top: 86px;
+  text-align: center;
+}
 .top_banner .buttons_container {
   margin-top: 50px;
   margin-left: 5px;
@@ -174,9 +178,11 @@ body {
 }
 .top_banner.team_page {
   background: url(../img/banner_02.jpg) 50% 0%;
+  height: 720px;
 }
-.top_banner.team_page .txtBlock {
-  text-align: center;
+.top_banner.what_page {
+  background: url(../img/banner_03.jpg) 50% 0%;
+  height: 820px;
 }
 .features_top_3 {
   text-align: center;
@@ -243,6 +249,26 @@ body {
   margin: 20px auto 35px;
   height: 1px;
   background: #48bcfe;
+}
+.descript {
+  text-align: center;
+}
+.goals {
+  text-align: center;
+}
+.grey_lined {
+  background: #faf9f4;
+  border-top: 1px solid #e0dfdc;
+  border-bottom: 1px solid #e0dfdc;
+}
+.most {
+  text-align: center;
+}
+.most .rect {
+  float: left;
+}
+.most h3 {
+  margin-top: 0;
 }
 .request_demo {
   text-align: center;
