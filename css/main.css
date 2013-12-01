@@ -270,6 +270,84 @@ body {
 .most h3 {
   margin-top: 0;
 }
+.what {
+  background: url(../img/banner_what.jpg) 50% 0%;
+  height: 821px;
+  color: #ffffff;
+}
+.blue {
+  background: #48bcfe;
+}
+.blue h1,
+.blue h3 {
+  color: #ffffff;
+}
+.ebooks .books {
+  position: relative;
+}
+.ebooks .books .book_pic {
+  position: relative;
+}
+.ebooks .books .book_pic:hover .book_hover {
+  display: block;
+}
+.ebooks .books .book_pic:hover .book_title {
+  display: none;
+}
+.ebooks .books .pro {
+  position: absolute;
+  left: 15px;
+  top: 100px;
+}
+.ebooks .books .book_title {
+  color: #ffffff;
+  position: absolute;
+  left: 95px;
+  top: 105px;
+}
+.ebooks .books .book_hover {
+  background: rgba(0, 0, 0, 0.5);
+  display: none;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  max-width: 300px;
+  top: 0;
+  text-align: center;
+  padding-top: 10%;
+}
+.ebooks .books .marked {
+  position: absolute;
+  left: 260px;
+}
+.videos .video {
+  position: relative;
+}
+.videos .video .video_pic {
+  position: relative;
+}
+.videos .video .video_pic:hover .video_hover {
+  display: block;
+}
+.videos .video .video_pic:hover .play {
+  display: none;
+}
+.videos .video .play {
+  position: absolute;
+  top: 50px;
+  left: 115px;
+}
+.videos .video .video_hover {
+  background: rgba(0, 0, 0, 0.5);
+  display: none;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  max-width: 300px;
+  top: 0;
+  text-align: center;
+  padding-top: 52px;
+}
 .request_demo {
   text-align: center;
   background-color: #f2f2f2;
